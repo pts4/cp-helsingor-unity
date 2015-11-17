@@ -24,7 +24,7 @@ namespace Bingo
         private void button1_Click(object sender, EventArgs e)
         {
             Random rnd = new Random();
-            bingotal = rnd.Next(1, 10);
+            bingotal = rnd.Next(1, 90);
             label1.Text = bingotal.ToString();
             var trukket = trukkedeTal[bingotal];
             if (trukket)
